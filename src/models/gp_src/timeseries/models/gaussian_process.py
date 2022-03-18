@@ -67,7 +67,7 @@ class GaussianProcess(Model):
         if samples:
             fsamples = self._model.predict_f_samples(X, num_samples=5_000)
             psi = self._model.likelihood.psi.numpy()
-            n_ys = 500
+            n_ys = 250
             y_s = np.arange(n_ys).reshape((n_ys, 1, 1, 1))
             mu = np.exp(fsamples[np.newaxis, :, :, :])
             p = psi / (mu + psi)
