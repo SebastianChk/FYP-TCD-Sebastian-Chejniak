@@ -7,7 +7,7 @@ Unfortunately gpflow seems to have conflicts with some of the other packages I u
 To install gluonTS and mxnet, one needs something called C++ build tools installed.
 
 ## fyp_mxnet
-gluonts, mxnet, pandas, numpy, sktime, properscoring
+gluonts, mxnet, pandas, numpy, scipy, sktime, properscoring
 
 ## fyp_gpflow
 gpflow, pandas, numpy, scipy, click
